@@ -1,0 +1,5 @@
+com\aitimetable\ai\TimetableScheduler.class
+com\aitimetable\TimetableServlet.class
+com\aitimetable\model\Meeting.class
+com\aitimetable\model\Slot.class
+com\aitimetable\model\Subject.class

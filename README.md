@@ -62,6 +62,25 @@ AI_Timetable_Generator_Flexible/
 ├── pom.xml
 └── README.md
 ```
+---
+
+## 📸 Project Screenshots
+
+### Screenshot 1 – Application Interface
+
+![Application Interface](Screenshot%202026-11-24%20213948.png)
+
+### Screenshot 2 – Project Input
+
+![Project Input](Screenshot%202026-11-24%20214028.png)
+
+### Screenshot 3 – Generated Timetable
+
+![Generated Timetable](Screenshot%202026-11-24%20214352.png)
+
+### Screenshot 4 – Timetable Output
+
+![Timetable Output](Screenshot%202026-11-24%20214411.png)
 
 ## 🎯 Project Objective
 

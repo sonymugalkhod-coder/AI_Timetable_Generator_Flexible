@@ -24,3 +24,5 @@ For one section, use the same section label in all subject rows. For multiple se
 
 ## Current version notes
 This is a flexible starter version. It supports custom days, arbitrary period labels/times, breaks, multiple sections, faculty and room clash checks, and weekly subject loads. Advanced optional controls (teacher unavailable periods, fixed/locked slots, preferred slots and double-period labs) are not yet implemented in this version.
+
+Learning Git and GitHub practically!

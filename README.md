@@ -1,28 +1,80 @@
-# Flexible AI Timetable Generator
+# 📅 AI Timetable Generator – Flexible
 
-Java 17 + Maven + Jakarta Servlet 6 + JSP application for Apache Tomcat 10.1.
+A Java-based web application designed to generate flexible academic timetables while considering subject requirements, faculty availability, classroom availability, and scheduling constraints.
 
-## Run
-1. Extract the ZIP.
-2. Open the extracted folder in VS Code.
-3. Open Terminal in VS Code and run: `mvn clean package`
-4. Copy `target/AI_Timetable_Generator.war` to `C:\apache-tomcat-10.1\webapps\`
-5. Start Tomcat and open `http://localhost:8080/AI_Timetable_Generator/`
+## 🚀 Project Overview
 
-## Input format
-Days: comma-separated, for example `Monday, Tuesday, Wednesday`.
-Periods: one teaching period per line. Any text label is accepted. Lines beginning with `BREAK:` are excluded from scheduling.
-Subjects: one row per subject, with exactly six comma-separated values:
-`Section, SubjectCode, SubjectName, Faculty, Room, WeeklyPeriods`
+The AI Timetable Generator helps simplify the process of creating academic timetables. It uses scheduling algorithms and constraint checking to generate a valid timetable based on the provided input.
 
-For one section, use the same section label in all subject rows. For multiple sections, use different section labels. Keep empty fields as empty comma positions, e.g. `A, LAB1, Data Lab, , Lab 2, 2`.
+## ✨ Features
 
-## AI techniques
-- CSP: section, faculty and room clashes are prohibited.
-- Backtracking: searches for a valid assignment.
-- Local Search: performs validity-preserving slot swaps after the CSP solution.
+- Flexible working days and period timings
+- Multiple sections support
+- Subject-wise weekly period allocation
+- Faculty clash detection
+- Classroom clash detection
+- Break and lunch period support
+- Automated timetable generation
+- Scheduling validation
 
-## Current version notes
-This is a flexible starter version. It supports custom days, arbitrary period labels/times, breaks, multiple sections, faculty and room clash checks, and weekly subject loads. Advanced optional controls (teacher unavailable periods, fixed/locked slots, preferred slots and double-period labs) are not yet implemented in this version.
+## 🛠️ Technologies Used
 
-Learning Git and GitHub practically!
+- Java 17
+- Maven
+- Jakarta Servlet
+- JSP
+- Apache Tomcat 10.1
+- HTML and CSS
+
+## 🧠 Scheduling Techniques
+
+- Constraint Satisfaction Problem (CSP)
+- Backtracking algorithm
+- Local Search
+
+## ⚙️ Project Setup
+
+1. Clone this repository.
+2. Open the project in Visual Studio Code or another Java IDE.
+3. Make sure Java 17 and Maven are installed.
+4. Open the project terminal.
+5. Run:
+
+```bash
+mvn clean package
+```
+
+6. Copy the generated WAR file from the target folder.
+7. Deploy it to Apache Tomcat 10.1.
+8. Start Tomcat and open the application in your browser.
+
+## 📂 Project Structure
+
+```text
+AI_Timetable_Generator_Flexible/
+│
+├── src/
+│   └── main/
+│       ├── java/
+│       └── webapp/
+│
+├── target/
+├── pom.xml
+└── README.md
+```
+
+## 🎯 Project Objective
+
+To reduce manual timetable preparation and provide a flexible scheduling solution for educational institutions.
+
+## 👩‍💻 Developer
+
+**Sony Anand Mugalkhod**
+
+Information Science and Engineering Student
+
+GitHub: [@sonymugalkhod-coder](https://github.com/sonymugalkhod-coder)
+
+---
+
+⭐ Thank you for visiting this project!
